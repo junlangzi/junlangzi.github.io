@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    color: #ffffff; /* Chữ trắng */
+    margin: 0;
+    padding: 0;
+    /* Gradient background */
+    background-image: linear-gradient(111.7deg, #a529b9 19.9%, #50b1e1 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0; /* Xóa margin top mặc định của h3 */
+    margin-bottom: 5px; /* Thêm margin bottom */
+}
+
+header {
+    text-align: center;
+    padding: 10px; /* Giảm padding top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 150px; /* Kích thước ảnh */
+    height: 150px;
+    border-radius: 50%; /* Bo tròn ảnh */
+    object-fit: cover; /* Giữ nguyên tỷ lệ ảnh */
+    margin-bottom: 5px; /* Giảm margin bottom */
+}
+
+main {
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link_button {
+    border: 1px solid #ffffff; /* Viền trắng */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 100%;
+    background-color: transparent; /* Nút trong suốt */
+}
+
+.link_button a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff; /* Chữ trắng */
+}
+
+.link_button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hiệu ứng hover */
+}
+
+header p {
+    font-size: 0.9em; /* Giảm kích thước font chữ */
+    margin-top: 0; /* Xóa margin top mặc định */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer p {
+    color: #222222; /* Màu đen đậm */
+    font-size: 0.8em;
+    margin: 0; /* Xóa margin mặc định */
+}
